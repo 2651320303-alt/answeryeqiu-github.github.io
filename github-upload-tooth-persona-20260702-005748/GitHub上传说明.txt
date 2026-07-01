@@ -1,0 +1,17 @@
+GitHub 上传说明
+
+当前环境连接 GitHub 时一直被重置，所以这个包用于网页端上传。
+
+上传方法：
+1. 解压这个 zip。
+2. 打开仓库：https://github.com/2651320303-alt/tooth-persona-card-test
+3. 进入 main 分支，点击 Add file -> Upload files。
+4. 把解压出来的所有文件和文件夹拖进去，包括 .github、public、src 等。
+5. 提交信息写：Update tooth persona site interactions。
+6. 提交后打开 Actions，等待 Deploy to GitHub Pages 变成绿色。
+7. 网页地址：https://2651320303-alt.github.io/tooth-persona-card-test/
+
+说明：
+- 不需要上传 node_modules。
+- 不需要上传 dist，GitHub Actions 会自动构建。
+- 如果浏览器无法拖入 .github 文件夹，请在电脑文件资源管理器里确认“显示隐藏的项目”，或者先上传其他文件，之后单独创建 .github/workflows/deploy.yml。
